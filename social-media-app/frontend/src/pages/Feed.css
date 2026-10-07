@@ -1,0 +1,37 @@
+.feed-page {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 28px 16px 70px;
+}
+@media (max-width: 600px) {
+  .feed-page {
+    padding: 16px 10px 50px;
+  }
+}
+.feed-status {
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+  padding: 24px 0;
+}
+.feed-empty {
+  padding: 55px 24px;
+  text-align: center;
+}
+.feed-empty-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 0 8px;
+}
+.feed-empty-sub {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 380px;
+  line-height: 1.6;
+}
+.feed-sentinel {
+  height: 1px;
+}
